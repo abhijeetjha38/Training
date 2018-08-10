@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+    <class name="hbmtoddl.Student" table="student">
+        <id name="studentId" column="sId">
+            <generator class="increment"/>
+        </id>
+        <property name="studentName" column="name2" />
+        <property name="address" column="address" />
+    </class>
+</hibernate-mapping>
